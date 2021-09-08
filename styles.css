@@ -1,0 +1,644 @@
+/* définition des polices personnalisées */
+html {
+    width: 100%;
+}
+
+body {
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+/* Elements principal de la page */
+.flexcentre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexaround {
+    display: flex;
+}
+
+.flexbetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.colorblue {
+    color:#0065FC;
+}
+
+.colorblue2 {
+    color:#0065FC;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.colorsky {
+    color: #DEEBFF;
+}
+
+.colorgrey {
+    color: #F2F2F2;
+}
+
+.fa, .fas{
+    font-size: 11px;
+}
+
+/*header*/
+.color2 {
+    color: black;
+}
+
+.case {
+    width: 70%;
+}
+
+.nav12 {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.decoration {
+    text-decoration: none;
+    font-size: small;
+}
+
+.size1, .size2, .size {
+    height: 68px;
+}
+.size {
+    margin-right: 30px;
+}
+.size2 {
+    margin-right: 65px;
+}
+
+.trait:hover {
+    border-top: solid 1.5px #0065FC;
+    }
+
+.reservia {
+    height: 34px;
+}
+
+nav a:hover {
+    color: #0065FC;
+ }
+
+ /*--------------------header-----------------------------------------------------*/
+header, nav {
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+h1 {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+p {
+    font-size: 0.7em;
+    margin-top: 0;
+    margin-bottom: 5px;
+    }
+
+/*---------------------main nav-----------*/
+main {
+    margin-bottom: 0px;
+    margin-left: 30px;
+}
+
+.fa-map-marker-alt {
+    background-color:  #F2F2F2;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 12px;
+}
+
+.forme {
+    display: flex;
+    margin-top: 10px;
+}
+.recherchez {
+ border : solid 1px #F2F2F2;
+}
+
+.recherche {
+    display: flex;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: white;
+    background-color:#0065FC;
+    border-style: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#filtres {
+    display: flex;
+ }
+
+.filtres {
+    font-size: 0.9em;
+    padding-top: 24px;
+    font-weight: bold;
+    margin-top: 13px;
+ }
+
+.barre {
+    display: flex;
+    list-style: none;
+    padding-top: 13px;
+    padding-bottom: 8px; 
+    padding-left: 20px;         
+}
+
+.barre li:hover {
+    text-decoration: none;
+    color: #0065FC;
+}
+     
+.nav {
+    margin-right: 20px;
+    border-radius: 30px;
+    border: 2px solid #F2F2F2;
+    padding-right: 20px;
+}
+
+li i {
+    color: #0065FC;
+    border-radius: 25px;
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+    background-color: #DEEBFF;
+    padding-left: 11px;
+    padding-right: 3px;
+    padding-top: 10px;
+}
+    
+.font {
+    font-weight: bold;
+    font-size: 0.9em
+}
+
+.emplacement {
+    display: flex;
+    margin-top: 5px;
+}
+
+.fa-info {
+    color : #0065FC;
+    border: 1.5px solid #F2F2F2 ;
+    border-radius: 20px;
+    margin-right: 7px;
+    width: 15px;
+    Height:15px;
+    padding-top: 3px;
+    padding-left: 2px;
+}
+
+.fasize {
+    font-size: 0.55em;
+}
+
+.fa-info::before {
+    padding-left: 5px;
+}
+
+.info {
+    padding-top: 2px;
+}
+
+/*----------Main   hebergement-------------------*/
+.placement:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.populaires:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.big:hover {
+    cursor: pointer;
+    transform: scale(1.1); 
+    transition-duration: 0.2s;
+}
+
+.big2:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.small1:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+#conteneur1 {
+    flex: 2;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aside {
+    flex: 1;
+    border-radius: 20px;
+    margin-left: 16px;
+    background-color: #F2F2F2;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: 30px;
+     
+}
+
+.placement  {
+    display: flex;
+    flex-direction: column;
+ }
+
+.cadre {
+    width: 29%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px #e2dfdf;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.un, .deux, .trois, .quatre, .cinq, .six {
+   width: 100%;
+   height: 80px;
+   object-fit: cover;
+   background-size: cover;
+   background-position: center;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+
+.hotels2, .hotels1 {
+   height: 35%;
+}
+
+.titre {
+    padding-left: 8px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 1em;
+}
+
+.Affichez {
+    margin-top: 10px;
+    margin-bottom: 16px;
+    padding-left: 6px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.titre2 {
+    margin-bottom: 23px;
+    font-size: 1em;
+    margin-top: 30px;
+    padding-left: 6px;
+}
+
+h3 {
+    font-size: 0.9em;
+    margin-top: 7px;
+    margin-bottom: 6px;
+}
+
+.legende1 {
+    margin-left: 5px;
+}
+
+.populaires {
+    display:flex;
+    background-size: cover;
+    background-position: center;
+    padding: 3px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 4px #e2dfdf;
+    margin: 0px 5px 20px 5px;
+    height: 20%;
+}
+
+.fa-chart-line {
+    padding-right: 12px;
+    padding-top: 20px;
+}
+
+.one {
+    width: 45%;
+    padding-right: 17px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    object-fit: cover;
+}
+
+.data {
+    padding-top: 25px;
+}
+/*----------Main   activités-------------------*/
+#activites {
+    margin: 30px 0 0 0;
+}
+
+.actions {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.image {
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+}
+
+.big {
+    border-radius: 10px;
+    box-shadow: 0 4px 4px #e2dfdf;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 70%;
+}
+
+.big2 {
+    border-radius: 10px;
+    box-shadow: 0 4px 4px #e2dfdf;
+    width : 100%;
+    margin-left: 40px;
+    margin-right: 0px;
+    height: 70%;
+}
+
+.small {
+    width: 100%;
+}
+
+.small2 {
+    margin-right: 0px;
+    width: 100%;
+    margin-left: 40px;
+}
+
+.small1 {
+    box-shadow: 0 4px 4px #e2dfdf;
+    border-radius: 10px;
+    height: 33%;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 17px;
+    margin-bottom: 0px;
+}
+ 
+.b {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.s, .ss {
+    width: 100%;
+    height:80%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover; 
+}
+
+.legende2 {
+    font-weight: bold;
+    font-size: 0.7em;
+    display: flex;
+    padding-top: 7px;  
+    padding-left: 10px;
+}   
+
+/*--------------------------------footer---------------------------*/
+#footer {
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-around;
+}
+
+.apropos {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin-left: 43px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.foot {
+    font-size: 0.9em;
+    margin-top: 20px;
+    margin-bottom: 9px; 
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.9em;
+        }
+
+footer li {
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+/*responsive*/
+@media screen and (max-width: 1280px) { 
+    
+    .placement {
+        min-height: 150px;
+    }
+    .populaires {
+        min-height: auto;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    h3 {
+        margin-top: 5px;
+        font-size: 0.70em;
+    }
+    .one {
+        min-width: 45%;
+        padding-right: 17px
+  }
+}
+@media screen and (max-width: 680px) {
+    html {
+        width : 100%;
+    }
+
+    body {
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .reservia {
+        margin-left: 14px;
+     }
+
+    .nav {
+        margin-bottom: 1em;
+    }
+    .nav12 {
+        margin-top: 22%;
+        position:absolute;
+        width: 70%;
+        margin-left: 14px;
+    }
+
+    .decoration {
+        font-size: larger;
+    }
+
+    .trait:hover{
+        border-bottom: solid 2px #0065FC;
+        border-top: none;
+        width: 50%;
+    }
+
+    header {
+        width:84%;
+        margin: 10px 10px 10px 4rem;
+    }
+
+    .size1 {
+        margin-left: 25px;
+    }
+
+    .size2 {
+        margin-right: 0px;
+
+        
+    }
+
+    .navigation {
+        height: 130px;
+        padding-bottom: 71px;
+    }
+        
+    input {
+        width: 70%;
+    }
+
+    button {
+        width: 100px;
+    }
+    .forme {
+        margin-top: 20px;
+    }
+
+    .fa-map-marker-alt {
+        padding: 15px;
+    }
+    #filtres {
+        display: block;
+    }
+    .barre {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0px;
+    }
+    
+    .flexaround {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .hotels1, .hotels2 {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .aside {
+        border-radius: 0px;
+    }
+
+    .titre2, .titre, .actions {
+       font-size: 1.2em
+    }
+    .fa-chart-line {
+       font-size: 20px;
+    }
+
+    #conteneur1 {
+        margin-top: 20px;
+        margin-left: 16px;
+        padding-right: 0px;
+        padding-left: 0px;
+        background-color: transparent;
+       }
+    .cadre {
+        width: 89%;
+    }
+
+    #activites {
+        width: 87%;
+        margin-top: 20px;
+        margin-left: 16px;
+        padding-right: 0px;
+        padding-left: 0px;
+        background-color: transparent;
+    }
+    .image {
+        display: flex;
+        flex-direction: column;
+        margin-left: 3px;
+    }
+
+    .small, .small2, .big2 {
+        margin-left: 0%;
+    }
+
+    .big, .big2 {
+        height: 70%;
+    }
+
+    .big2 {
+        margin-top: 0px;
+    }
+
+    .small1 {
+       margin-bottom: 34px;
+       height: 70%;
+    }
+
+    .legende2 {
+        font-size: 0.9em;
+        padding-top: 14px;
+    }
+
+#footer {
+    width: 100%;
+    flex-direction: column;
+}
+}
+
