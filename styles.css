@@ -145,6 +145,10 @@ main {
     font-weight: bold;
 }
 
+.recherche i {
+    display: none;
+}
+
 .true {
     display: none;
 }
@@ -353,6 +357,7 @@ h3 {
     padding-right: 17px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    object-fit: cover;
 }
 
 .data {
@@ -547,7 +552,7 @@ footer li {
         margin-top: 20px;
         display: flex;
         justify-content: center;
-        flex-direction: row;
+        flex-direction: column;
      }
 
     #activites {
@@ -572,7 +577,7 @@ footer li {
     }
 
     .populaires {
-        width: 29%;
+        width: 98%;
     }
 
     .flexaround {
@@ -591,7 +596,8 @@ footer li {
     }
     .one {
         min-width: 45%;
-        padding-right: 17px
+        padding-right: 17px;
+        
   }
 }
 @media screen and (max-width: 660px) {
@@ -680,8 +686,12 @@ footer li {
         font-size: 20px;
     }
     
-    .recherche {
+    .recherche span {
         display: none;
+    }
+
+    .recherche i {
+        display: block;
     }
 
     .filtres {
