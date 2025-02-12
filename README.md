@@ -29,5 +29,6 @@ F Le code doit utiliser des balises sémantiques et ne contenir aucune erreur ni
 
 
 ## 💻 Notes sur la réalisation du projet
-- L'integration est faite sur l'éditeur Visual Studio Code avec les plugins [Live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass) & [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph). Le thème, l'UI et les raccourcis clavier sont personnalisés.
+- L'integration est faite sur l'éditeur Visual Studio Code avec les plugins [Live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).<br>
+Le thème, l'UI et les raccourcis clavier sont personnalisés.
 - [Sass](https://sass-lang.com/) est utilisé pour organiser le css.
