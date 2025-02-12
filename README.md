@@ -1,15 +1,17 @@
 # Projet Reservia 
 Site réalisé en plusieurs étapes pour une agence de voyage "reservia" 
-L'objectif est d'intégrer la maquette d'un site de gestion de vacances.
+
+## 🎯 Objectif à atteindre
+Intégrer la maquette d'un site de gestion de vacances (comme ci-dessous)
 
 <img src="https://user.oc-static.com/upload/2020/08/24/1598262857804_Maquette%20reservia-min.png" alt="maquette du site" />
 
-## Éléments fournis par l'entreprise virtuelle.
-- La maquette pour les résolutions ordinateur et téléphone nous est donné.
-- Toutes les images présentes sur le site sont aussi livrés en format sm, md, l & xl.
-- Les icones proviennent de [Font Awesome](https://fontawesome.com/)
-- Les couleurs sont : bleu #0065FC - bleu clair #DEEBFF - gris #F2F2F2
-- La police est ["Raleway"](https://fonts.google.com/specimen/Raleway)
+## 🔧 Éléments fournis par l'entreprise.
+- La maquette pour la réalisation d"un site responsive (desktop / mobil).
+- L'ensemble des images du site (en format sm, md, l & xl).
+- Les icones proviennent du site [Font Awesome](https://fontawesome.com/).
+- Une charte graphique qui impose un colorama : bleu #0065FC - bleu clair #DEEBFF - gris #F2F2F2
+et une police ["Raleway"](https://fonts.google.com/specimen/Raleway).
 
 ## Cahier des charges
 - L'integration doit se faire en HTML5 & CSS3, sans framework (bootstrap par exemple)
